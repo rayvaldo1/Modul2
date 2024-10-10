@@ -1,19 +1,19 @@
 package main 
  import "fmt" 
  func main() {     
-	var azka int 
+	var n int 
     fmt.Print("bilangan: ")     
-	fmt.Scanln(&azka) 
+	fmt.Scanln(&n) 
     fmt.Print("Faktor: ")     
-	for i := 1; i <= azka; i++ {         
-		if azka%i == 0 {             
+	for i := 1; i <= n; i++ {         
+		if n%i == 0 {             
 			fmt.Print(i, " ") 
         }     
 	}     
 	fmt.Println() 
     var jumlahFaktor int = 0    
-	for i := 1; i <= azka; i++ {         
-		if azka%i == 0 {             
+	for i := 1; i <= n; i++ {         
+		if n%i == 0 {             
 			jumlahFaktor++ 
         } 
     }      
